@@ -1,4 +1,6 @@
 import { Text, View } from "react-native";
+import { WelcomeText } from "@/components/WelcomeText";
+import { Welcomepepe } from "@/components/WelcomeText";
 
 export default function Index() {
   return (
@@ -9,7 +11,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <WelcomeText></WelcomeText>
+      <Welcomepepe></Welcomepepe>
     </View>
   );
 }
